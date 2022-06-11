@@ -23,7 +23,7 @@ jobs:
       - name: get external templates
         if: ${{ always() }}
         run: |
-          kpt pkg get https://github.com/mathieu-benoit/acm-workshop-policies templates
+          kpt pkg get https://github.com/mathieu-benoit/acm-workshop-policies/clusters templates
       - name: gatekeeper
         if: ${{ always() }}
         run: |
