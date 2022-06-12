@@ -13,11 +13,8 @@ spec:
   parameters:
     repos:
     - auto
-    - gcr.io
-    - k8s.gcr.io
+    - gcr.io/config-management-release
+    - gcr.io/gke-release
     - gke.gcr.io
-    - us-docker.pkg.dev/google-samples/containers/gke/whereami
-    - gcr.io/google-samples/microservices-demo
-    - busybox #not ideal, but temporary (loadgenerator's initContainer)
-    - redis
+    - k8s.gcr.io
     - us-east4-docker.pkg.dev/acm-workshop-743-tenant/containers
