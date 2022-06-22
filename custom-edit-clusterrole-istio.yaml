@@ -12,5 +12,7 @@ rules:
   - "virtualservices"
   - "authorizationpolicies"
   - "sidecars"
+  - "serviceentries"
+  - "destinationrules"
   verbs:
   - "*"
