@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: gatekeeper-admin
+  namespace: gatekeeper-system
+  annotations:
+    iam.gke.io/gcp-service-account: gke-primary-pool@acm-workshop-743-tenant.iam.gserviceaccount.com
